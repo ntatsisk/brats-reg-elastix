@@ -1,0 +1,10 @@
+name: landmark-reader 
+contributions:
+  commands:
+    - id: landmark-reader.get_reader
+      title: Read landmarks
+      python_name: landmark_reader._reader:napari_get_reader
+  readers:
+    - command: landmark-reader.get_reader
+      accepts_directories: false
+      filename_patterns: ['*.csv']
