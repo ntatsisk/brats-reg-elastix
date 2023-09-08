@@ -1,0 +1,5 @@
+itk-elastix
+matplotlib
+numpy
+pandas
+scikit-learn
